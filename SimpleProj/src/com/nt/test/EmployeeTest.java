@@ -6,11 +6,10 @@ public class EmployeeTest {
 
 	public static void main(String[] args) {
 		
-      System.out.println("hi hello");
-       EmployeeController controller=null;
-       controller=new EmployeeController();
-       String result=controller.empDeatils();
-       System.out.println("Employee Details:: "+result);
+System.out.println("hi hello");
+System.out.println("hiiiiiiiiii");
+
+
 	}
 
 }
