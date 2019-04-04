@@ -10,6 +10,7 @@ public class EmployeeTest {
 controller=new EmployeeController();
 String result=controller.empDeatils();
 System.out.println(result);
+System.out.println("hii");
 
 
 	}
