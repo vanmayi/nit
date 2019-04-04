@@ -3,13 +3,13 @@ package com.nt.test;
 import com.nit.controller.EmployeeController;
 
 public class EmployeeTest {
-
+	private static EmployeeController controller;
 	public static void main(String[] args) {
 		
-System.out.println("hi hello");
-System.out.println("hiiiiiiiiii");
-System.out.println("jjjjjjjjjjjj");
 
+controller=new EmployeeController();
+String result=controller.empDeatils();
+System.out.println(result);
 
 	}
 
