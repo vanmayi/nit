@@ -8,10 +8,11 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	public String empDetails() {
 		// TODO Auto-generated method stub
+		String result=null;
 		dao=new EmployeeDAOImpl();
-		//use dao
-		String result=dao.insert();
+		//use dao method
+		result=dao.insert();
 		return result;
-	}
+	}//method
 
-}
+}//class
