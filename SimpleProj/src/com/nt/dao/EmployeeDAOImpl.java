@@ -5,7 +5,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 	@Override
 	public String insert() {
 		
-		return "employee details";
+		return "hai in dao";
 	}
 
 }

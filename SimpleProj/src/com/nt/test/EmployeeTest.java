@@ -11,6 +11,7 @@ controller=new EmployeeController();
 String result=controller.empDeatils();
 System.out.println(result);
 
+
 	}
 
 }
